@@ -38,11 +38,9 @@ LCS works as follows:
     <div style="font-style: italic; text-align: left;">
         Figure 1: Trees of semantic dependencies between a simple sentence (left) and a complicated sentence (right).
         The simple sentence has 6 dependencies and its semantic tree has a height of 4 while the complicated one has 14 dependencies and its semantic tree has a height of 4.
-        [\[5\]][5]
+        <a href="https://arxiv.org/abs/2305.04183">[5]</a>
     </div>
 </div>
-
-[5]: https://arxiv.org/abs/2305.04183
 
 ## 📝 Preprocessing and Parsing for Vietnamese
 
