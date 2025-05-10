@@ -33,13 +33,11 @@ LCS works as follows:
 
     + Taller tree → Greater structural complexity
 
-<div align="center" style="text-align: left;">
-    <img src="../../../assets/LCS/openViVQA.png" alt="OpenViVQA" style="display: block; margin: auto;" width="800">
-    <div style="font-style: italic; text-align: left;">
-        Figure 1: Trees of semantic dependencies between a simple sentence (left) and a complicated sentence (right).
-        The simple sentence has 6 dependencies and its semantic tree has a height of 4 while the complicated one has 14 dependencies and its semantic tree has a height of 4.
-        <a href="https://arxiv.org/abs/2305.04183">[5]</a>
-    </div>
+<div align="center" style="text-align: center;">
+    <img src="../../../assets/LCS/openViVQA.png" alt="OpenViVQA" style="margin: auto;" width="800">
+</div>
+<div style="text-align: left; font-style: italic;">
+    Figure 1: Trees of semantic dependencies between a simple sentence (left) and a complicated sentence (right). The simple sentence has 6 dependencies and its semantic tree has a height of 4 while the complicated one has 14 dependencies and its semantic tree has a height of 4. <a href="https://arxiv.org/abs/2305.04183">[5]</a>
 </div>
 
 ## 📝 Preprocessing and Parsing for Vietnamese
