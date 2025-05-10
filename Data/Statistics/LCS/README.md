@@ -1,15 +1,15 @@
 # 📚 Linguistic Complexity Specification (LCS)
 In addition to basic dataset statistics, we conducted an **in-depth linguistic analysis** to assess the complexity and diversity of **ViInfographicsVQA** in comparison to other VQA datasets in both **Vietnamese and English**. These include:
 
-+ VQAv2 [1](https://arxiv.org/abs/1505.00468)
++ VQAv2 [[1]](https://arxiv.org/abs/1505.00468)
 
-+ OCR-VQA [2](https://anandmishra22.github.io/files/mishra-OCR-VQA.pdf)
++ OCR-VQA [[2]](https://anandmishra22.github.io/files/mishra-OCR-VQA.pdf)
 
-+ TextVQA [3](https://arxiv.org/abs/1904.08920)
++ TextVQA [[3]](https://arxiv.org/abs/1904.08920)
 
-+ ViVQA [4](https://aclanthology.org/2021.paclic-1.72.pdf)
++ ViVQA [[4]](https://aclanthology.org/2021.paclic-1.72.pdf)
 
-+ OpenViVQA [5](https://arxiv.org/abs/2305.04183)
++ OpenViVQA [[5]](https://arxiv.org/abs/2305.04183)
 
 ## 🧠 What is LCS?
 
@@ -19,7 +19,7 @@ We define the linguistic characteristics of a VQA dataset based on two key facto
 
 + The **height of the corresponding semantic dependency tree**.
 
-These two metrics reflect how **syntactically and semantically complex** a sentence is. To quantify these aspects, we adopted the **Linguistic Complexity Specification (LCS)** algorithm from OpenViVQA [5](https://arxiv.org/abs/2305.04183).
+These two metrics reflect how **syntactically and semantically complex** a sentence is. To quantify these aspects, we adopted the **Linguistic Complexity Specification (LCS)** algorithm from OpenViVQA [[5]](https://arxiv.org/abs/2305.04183).
 
 LCS works as follows:
 
@@ -35,7 +35,7 @@ LCS works as follows:
 
 <div align="center" style="text-align: left;">
     <img src="../../../assets/LCS/openViVQA.png" alt="OpenViVQA" style="display: block; margin: auto;" width="800">
-    <div style="font-style: italic;">Figure 1: Trees of semantic dependencies between a simple sentence (left) and a complicated sentence (right). The simple sentence has 6 dependencies and its semantic tree has a height of 4 while the complicated one has 14 dependencies and its semantic tree has a height of 4. [5](https://arxiv.org/abs/2305.04183)</div>
+    <div style="font-style: italic;">Figure 1: Trees of semantic dependencies between a simple sentence (left) and a complicated sentence (right). The simple sentence has 6 dependencies and its semantic tree has a height of 4 while the complicated one has 14 dependencies and its semantic tree has a height of 4. [[5]](https://arxiv.org/abs/2305.04183)</div>
 </div>
 
 ## 📝 Preprocessing and Parsing for Vietnamese
@@ -50,9 +50,9 @@ Without proper segmentation, “học sinh” may be split into “học” and 
 
 ✅ **Preprocessing steps for Vietnamese**:
 
-+ **Word Segmentation**: Performed using **VNCoreNLP** [6](https://aclanthology.org/N18-5012/).
++ **Word Segmentation**: Performed using **VNCoreNLP** [[6]](https://aclanthology.org/N18-5012/).
 
-+ **Dependency Parsing**: Conducted using **PhoNLP** [7](https://arxiv.org/abs/2101.01476).
++ **Dependency Parsing**: Conducted using **PhoNLP** [[7]](https://arxiv.org/abs/2101.01476).
 
 ## 🛠 Installation Instructions for PhoNLP and VNCoreNLP
 
@@ -101,5 +101,5 @@ https://github.com/vncorenlp/VnCoreNLP
 
 <div align="center" style="text-align: left;">
     <img src="../../../assets/LCS/LCS_Table.png" alt="LCS Table" style="display: block; margin: auto;" width="800">
-    <div style="font-style: italic;">Table 1: Linguistic comparison on questions and answers among VQA datasets. Note that these results were obtained on train-dev sets. [5](https://arxiv.org/abs/2305.04183)</div>
+    <div style="font-style: italic;">Table 1: Linguistic comparison on questions and answers among VQA datasets. Note that these results were obtained on train-dev sets. [[5]](https://arxiv.org/abs/2305.04183)</div>
 </div>
