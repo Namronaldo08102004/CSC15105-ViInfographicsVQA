@@ -45,15 +45,21 @@ These distributions support informed decisions for filtering, normalizing, or re
     <div style="font-style: italic;">Figure 2: The distribution of questions and answers' length in train set</div>
 </div>
 
+<br>
+
 <div align="center" style="text-align: center;">
     <img src="../../../assets/Initial_Stas/Val_Ques-and-Ans-Lengths.png" alt="ValLengths" style="display: block; margin: auto;" width="800">
     <div style="font-style: italic;">Figure 3: The distribution of questions and answers' length in validation set</div>
 </div>
 
+<br>
+
 <div align="center" style="text-align: center;">
     <img src="../../../assets/Initial_Stas/Test_Ques-and-Ans-Lengths.png" alt="TestLengths" style="display: block; margin: auto;" width="800">
     <div style="font-style: italic;">Figure 4: The distribution of questions and answers' length in test set</div>
 </div>
+
+<br>
 
 <div align="center" style="text-align: center;">
     <img src="../../../assets/Initial_Stas/Ques-and-Ans-Lengths-Table.png" alt="TableLengths" style="display: block; margin: auto;" width="800">
