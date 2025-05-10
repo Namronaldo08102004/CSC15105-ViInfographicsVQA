@@ -105,3 +105,10 @@ https://github.com/vncorenlp/VnCoreNLP
     <img src="../../../assets/LCS/LCS_Table.png" alt="LCS Table" style="display: block; margin: auto;" width="800">
     <div style="font-style: italic; text-align: left;">Table 1: Linguistic comparison on questions and answers among VQA datasets. Note that these results were obtained on train-dev sets. [[5]](https://arxiv.org/abs/2305.04183)</div>
 </div>
+
+<div align="center" style="text-align: center;">
+    <img src="../../../assets/LCS/LCS_Table.png" alt="LCS Table" style="display: block; margin: auto;" width="800">
+</div>
+<div style="text-align: left; font-style: italic;">
+    Table 1: Linguistic comparison on questions and answers among VQA datasets. Note that these results were obtained on train-dev sets. <a href="https://arxiv.org/abs/2305.04183">[5]</a>
+</div>
