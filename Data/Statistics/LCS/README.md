@@ -35,8 +35,14 @@ LCS works as follows:
 
 <div align="center" style="text-align: left;">
     <img src="../../../assets/LCS/openViVQA.png" alt="OpenViVQA" style="display: block; margin: auto;" width="800">
-    <div style="font-style: italic;">Figure 1: Trees of semantic dependencies between a simple sentence (left) and a complicated sentence (right). The simple sentence has 6 dependencies and its semantic tree has a height of 4 while the complicated one has 14 dependencies and its semantic tree has a height of 4. [[5]](https://arxiv.org/abs/2305.04183)</div>
+    <div style="font-style: italic; text-align: left;">
+        Figure 1: Trees of semantic dependencies between a simple sentence (left) and a complicated sentence (right).
+        The simple sentence has 6 dependencies and its semantic tree has a height of 4 while the complicated one has 14 dependencies and its semantic tree has a height of 4.
+        [\[5\]][5]
+    </div>
 </div>
+
+[5]: https://arxiv.org/abs/2305.04183
 
 ## 📝 Preprocessing and Parsing for Vietnamese
 
@@ -101,5 +107,5 @@ https://github.com/vncorenlp/VnCoreNLP
 
 <div align="center" style="text-align: left;">
     <img src="../../../assets/LCS/LCS_Table.png" alt="LCS Table" style="display: block; margin: auto;" width="800">
-    <div style="font-style: italic;">Table 1: Linguistic comparison on questions and answers among VQA datasets. Note that these results were obtained on train-dev sets. [[5]](https://arxiv.org/abs/2305.04183)</div>
+    <div style="font-style: italic; text-align: left;">Table 1: Linguistic comparison on questions and answers among VQA datasets. Note that these results were obtained on train-dev sets. [[5]](https://arxiv.org/abs/2305.04183)</div>
 </div>
