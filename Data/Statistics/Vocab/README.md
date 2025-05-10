@@ -67,6 +67,8 @@ To **illustrate the diversity** and **semantic richness** of the constructed voc
     <div style="font-style: italic;">Figure 1: Wordcloud of questions' vocabulary set</div>
 </div>
 
+<br>
+
 <div align="center" style="text-align: center;">
     <img src="../../../assets/Vocab/vocab_ans.png" alt="Answer Vocab" style="display: block; margin: auto;" width="800">
     <div style="font-style: italic;">Figure 2: Wordcloud of answers' vocabulary set</div>
