@@ -53,19 +53,3 @@ This approach ensures the generated content is:
 - **Focused** on verifiable information from the infographic itself.
 - **Useful** for applications such as dataset creation, model training, or educational QA systems.
 
-
-
-## 📂 Folder Structure
-```bash
-project/
-│
-├── .env                 # contains GEMINI_API_KEY
-├── images/              # folder with infographic images
-│   ├── img1.png
-│   ├── img2.png
-│   └── ...
-├── qa_images.json       # auto-generated QA data file
-└── gen.ipynb            # this notebook
-
-```
-
