@@ -64,8 +64,8 @@ The goal is to generate a correct answer $A$ by reasoning over both **visual ele
 
 The **OCR phase** should be executed **before training**, using:
 
-    - **EasyOCR** to extract text snippets from infographics
+- **EasyOCR** to extract text snippets from infographics
 
-    - **Gemini API** to summarize or refine the raw OCR output into usable structured text
+- **Gemini API** to summarize or refine the raw OCR output into usable structured text
 
 Due to Gemini API rate limits, we **run OCR + Gemini** offline and store results for model training later.
