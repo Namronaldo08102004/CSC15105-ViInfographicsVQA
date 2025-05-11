@@ -1,4 +1,7 @@
+<a id="readme-top"></a>
+
 # 📊 Infographic QA Generator
+
 This notebook uses Google Gemini to automatically generate question-answer (QA) pairs from infographic images. It is designed for Vietnamese-language infographics and focuses on count-based reasoning (e.g., counting items, visual elements, or text-based data).
 
 
@@ -26,7 +29,7 @@ Gemini offers a generous free tier, allowing developers and researchers to exper
 </center>
 
 **5. Developer-Friendly API**\
-Easy-to-use Python SDK (google.generativeai) with image input support makes integration straightforward and scalable.
+Easy-to-use Python SDK (google.genai) with image input support makes integration straightforward and scalable.
 
 
 
