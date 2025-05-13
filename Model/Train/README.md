@@ -20,7 +20,7 @@ The goal is to generate a correct answer $A$ by reasoning over both **visual ele
 
 - 📝 **Textual Encoder**: Encodes the question into **text embeddings**
 
-- 🔄 **Co-Attention**: Learns cross-modal alignments between visual and text embeddings
+- 🔄 **Bi-directional Cross Attention**: Learns cross-modal alignments between visual and text embeddings
 
 - 🗣️ **Decoder**: Generates the final answer $A$
 
@@ -45,7 +45,7 @@ The goal is to generate a correct answer $A$ by reasoning over both **visual ele
 
     - 📚 **Textual Encoder**: Encodes the OCR texts into **OCR text embeddings** as well as cncodes the question into **text embeddings**
 
-    - 🔄 **Co-Attention**: Merges OCR + question embeddings
+    - 🔄 **Bi-directional Cross Attention**: Merges OCR + question embeddings
 
     - 🗣️ **Decoder**: Generates the final answer $A$
 
@@ -56,7 +56,7 @@ The goal is to generate a correct answer $A$ by reasoning over both **visual ele
 **Architecture Flow**
 
 <div align="center" style="text-align: center;">
-    <img src="../../assets/Train/flow3.drawio.jpg" alt="ValLengths" style="display: block; margin: auto;" width="800">
+    <img src="../../assets/Train/flow3.drawio.png" alt="ValLengths" style="display: block; margin: auto;" width="800">
     <div style="font-style: italic;">Figure 2: Diagram of Text-Based and Non-Text-Based Visual Question Answering approach</div>
 </div>
 
