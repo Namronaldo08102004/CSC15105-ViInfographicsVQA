@@ -12,17 +12,17 @@ This is a Streamlit-based web application for Visual Question Answering (VQA). U
 
 ## Project Structure
 
-```
+```bash
 project_root/
 ├── api_service/
 │   ├── .env.example
-│   └── fastapi-full.ipynb
-├── app/
-│   ├── .env.example
-│   ├── api_caller.py
-│   ├── app.py
-│   └── database.py
-├── requirements.txt
+│   └── fastapi-full.ipynb # Include packages installation with pip
+└── app/
+    ├── .env.example
+    ├── api_caller.py
+    ├── app.py
+    ├── database.py
+    └── requirements.txt
 ```
 
 ## Setup Instructions
@@ -40,6 +40,8 @@ cd <repository-directory>
 python -m venv venv
 source venv/bin/activate  # On Windows: venv\Scripts\activate
 ```
+
+*Note:* You can also use other environments like `conda` or `pyenv`. Just make sure the environment is activated before installing dependencies.
 
 ### 3. Install Dependencies
 
