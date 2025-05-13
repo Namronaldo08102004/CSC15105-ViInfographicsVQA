@@ -21,8 +21,8 @@ project_root/
 │   ├── .env.example
 │   ├── api_caller.py
 │   ├── app.py
-│   └── database.py
-├── requirements.txt
+│   ├── database.py
+│   └── requirements.txt
 ```
 
 ## Setup Instructions
@@ -46,6 +46,7 @@ source venv/bin/activate  # On Windows: venv\Scripts\activate
 Install the required Python packages:
 
 ```bash
+cd app
 pip install -r requirements.txt
 ```
 
