@@ -16,15 +16,6 @@ This is a Streamlit-based web application for Visual Question Answering (VQA). U
 project_root/
 ├── api_service/
 │   ├── .env.example
-<<<<<<< HEAD
-│   └── fastapi-full.ipynb
-├── app/
-│   ├── .env.example
-│   ├── api_caller.py
-│   ├── app.py
-│   ├── database.py
-│   └── requirements.txt
-=======
 │   └── fastapi-full.ipynb # Include packages installation with pip
 └── app/
     ├── .env.example
@@ -32,7 +23,6 @@ project_root/
     ├── app.py
     ├── database.py
     └── requirements.txt
->>>>>>> a1b34f73bef8fffbb21cc80c6792873e30b1d925
 ```
 
 ## Setup Instructions
