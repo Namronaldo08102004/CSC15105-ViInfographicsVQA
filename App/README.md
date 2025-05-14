@@ -13,7 +13,7 @@ This is a Streamlit-based web application for Visual Question Answering (VQA). U
 ## Project Structure
 
 ```bash
-project_root/
+App/
 ├── api_service/
 │   ├── .env.example
 │   └── fastapi-full.ipynb # Include packages installation with pip

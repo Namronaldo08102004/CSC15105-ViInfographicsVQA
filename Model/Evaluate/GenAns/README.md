@@ -24,6 +24,6 @@ We use trained checkpoints from both modeling strategies:
 
 The models have been trained and saved at:
 
-🔗 https://huggingface.co/Namronaldo2004/ViInfographicsVQA/tree/main
+🔗 https://huggingface.co/Namronaldo2004/ViInfographicsVQA
 
 > 📌 Note: For details on how to load these checkpoints and generate answers using them, please refer to the scripts and examples provided in this section.
