@@ -1,4 +1,4 @@
-# CSC15105-ViInfographicsVQA
+# ViInfographicsVQA - A Novel Vietnamese Dataset on Infographics
 This project focuses on Vietnamese Infographic Visual Question Answering (VQA), featuring a custom-built dataset and a tailored model designed to understand and answer questions based on Vietnamese infographic images.
 
 ## 📁 Folders Structure and Flow
