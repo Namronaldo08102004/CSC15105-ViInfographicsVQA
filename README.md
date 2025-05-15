@@ -65,12 +65,12 @@ We thank all individuals who have contributed to this project:
 - [joecao0303](https://github.com/joecao0303)
 - [nguyenvmthien](https://github.com/nguyenvmthien)
 
-This project was part of NLP Application course, developed during Feb 2025 - May 2025.
+This project was part of Text Mining course, developed during Feb 2025 - May 2025.
 
 ### 🙏 Acknowledgement
 We would like to express our sincere gratitude to:
 
 - **Dr. Lê Thành Tùng** — for his invaluable guidance and support as our project advisor.  
-- **HCMUS – University of Science, VNU-HCM**, and the **CSC15105 - Introduction to Artificial Intelligence** course for providing the academic foundation and environment for this project.  
+- **HCMUS – University of Science, VNU-HCM**, and the **CSC15105 - Text Mining and Applications** course for providing the academic foundation and environment for this project.  
 
 Special thanks to everyone who contributed to the development of this Vietnamese VQA resource, helping to promote AI research for low-resource languages.
