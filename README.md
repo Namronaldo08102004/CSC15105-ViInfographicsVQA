@@ -55,6 +55,9 @@ Our dataset and trained model checkpoints are publicly available on [Hugging Fac
 - 🧠 **Model**: [`Namronaldo2004/ViInfographicsVQA`](https://huggingface.co/Namronaldo2004/ViInfographicsVQA)  
   Trained VQA model fine-tuned specifically on the ViInfographicsVQA dataset, ready for inference or further fine-tuning.
 
+- 📺 **Video Demo**: [`Watch the demo`](https://www.youtube.com/watch?v=TAIfhJRcmAU)
+  A short walkthrough showcasing how the ViInfographicsVQA model interprets real infographic questions, highlighting both visual grounding and text understanding in action.
+
 Feel free to explore the links above to download the data, evaluate the model, or integrate them into your own VQA workflows.
 
 ## 🧑‍💻 Contributors
